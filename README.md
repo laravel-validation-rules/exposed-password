@@ -1,7 +1,6 @@
 # Laravel Validator Rules - Exposed Password
 
-This rule will validate that a password hasn't been exposed.
-
+This rule will validate that a password hasn't been exposed in a data breach.
 
 ## Installation
 
@@ -9,12 +8,18 @@ This rule will validate that a password hasn't been exposed.
 composer require laravel-validation-rules/exposed-password
 ```
 
-
 ## Usage
 
+```php
+use DivineOmega\LaravelPasswordExposedValidationRule\PasswordExposed;
+
+$request->validate([
+    'password' => ['required', new PasswordExposed],
+]);
+```
 
 ### License
-This project is licensed under an Apache 2.0 license which you can find
+This project is licensed under a GNU Lesser General Public License v3.0 which you can find
 [in this LICENSE](https://github.com/laravel-validation-rules/exposed-password/blob/master/LICENSE).
 
 

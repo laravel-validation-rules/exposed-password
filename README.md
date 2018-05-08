@@ -29,4 +29,4 @@ issue within this repository.
 
 ## Laravel Validation Rules
 
-This package is part of the Laravel Validation Rules collection. If you're after more Laravel Validation Rules, head to the [Laravel Validation Rules](https://laravel-validation-rules.github.io/) website.
+This package is part of the Laravel Validation Rules collection. If you're after more useful validation rules, head to the [Laravel Validation Rules](https://laravel-validation-rules.github.io/) website.

@@ -1,7 +1,6 @@
 {
     "name": "laravel-validation-rules/exposed-password",
     "description": "Metapackage for https://github.com/DivineOmega/laravel-password-exposed-validation-rule",
-    "version": "1.1.0",
     "type": "metapackage",
     "require": {
         "divineomega/laravel-password-exposed-validation-rule": "1.1.0"

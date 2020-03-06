@@ -3,7 +3,7 @@
     "description": "Metapackage for https://github.com/DivineOmega/laravel-password-exposed-validation-rule",
     "type": "metapackage",
     "require": {
-        "divineomega/laravel-password-exposed-validation-rule": "^2.1"
+        "divineomega/laravel-password-exposed-validation-rule": "^2.2"
     },
     "license": "LGPL-3.0-only"
 }

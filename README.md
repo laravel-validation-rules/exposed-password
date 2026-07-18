@@ -1,6 +1,6 @@
 # Laravel Validator Rules - Exposed Password
 
-This rule will validate that a password hasn't been exposed in a data breach.
+This metapackage installs the maintained Laravel rule that validates that a password has not been exposed in a data breach.
 
 ## Installation
 
@@ -11,12 +11,14 @@ composer require laravel-validation-rules/exposed-password
 ## Usage
 
 ```php
-use DivineOmega\LaravelPasswordExposedValidationRule\PasswordExposed;
+use JordJD\LaravelPasswordExposedValidationRule\PasswordNotExposed;
 
 $request->validate([
-    'password' => ['required', new PasswordExposed],
+    'password' => ['required', new PasswordNotExposed()],
 ]);
 ```
+
+Version 2 of this metapackage uses the current `jord-jd/laravel-password-exposed-validation-rule` package and namespace. Applications that still use the legacy `DivineOmega` namespace should remain on version 1 until they are ready to update the import.
 
 ## License
 This project is licensed under a GNU Lesser General Public License v3.0 which you can find
